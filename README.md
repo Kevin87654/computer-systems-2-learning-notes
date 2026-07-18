@@ -6,17 +6,18 @@
 
 ## 实验内容
 
-| 实验 | 主题 | 主要内容 | 报告 |
+| 实验 | 主题 | 主要内容 | 资料 |
 | --- | --- | --- | --- |
 | 实验一 | 实验环境配置与使用 | Linux 基本操作、GCC 编译、GDB 调试 | [查看报告](reports/lab1-environment-and-tools.docx) |
 | 实验二 | 数据表示 | 位运算、整数与浮点数表示、Data Lab | [查看报告](reports/lab2-data-representation.docx) |
 | 实验三 | 逆向工程 | 反汇编、GDB 动态分析、Bomb Lab | [查看报告](reports/lab3-reverse-engineering.docx) |
 | 实验四 | 缓冲区溢出 | 栈帧、返回地址、缓冲区溢出与安全机制 | [查看报告](reports/lab4-buffer-overflow.docx) |
-| 实验五 | Cache 实验 | Cache 层次结构、访存步长与性能测试 | [查看报告](reports/lab5-cache.docx) |
+| 实验五 | Cache 实验 | Cache 层次结构、访存步长与性能测试 | [查看报告](reports/lab5-cache.docx) · [查看源码](src/lab5/CacheLab5.cpp) |
 
 ## 使用说明
 
 - 报告采用 DOCX 格式，请下载后使用 Microsoft Word、WPS Office 或 LibreOffice 查看。
+- 实验五源码使用 C++ 编写，计时部分依赖 Windows 的 `QueryPerformanceCounter`。
 - 姓名、学号、班级以及文档作者元数据已做脱敏处理。
 - 报告中的终端用户名、内存地址、Cookie 和测试结果仅用于说明当时的本地实验环境，不是线上账号凭据。
 - 本仓库只用于个人学习记录与技术交流，不包含课程课件、测验答案、历年试题、实验二进制文件或构建缓存。
@@ -35,4 +36,3 @@
 ## 版权说明
 
 报告中的课程名称和实验背景用于说明学习经历。报告正文、实验过程、截图和总结为个人学习记录；课程原始材料的权利归其各自权利人所有。
-
