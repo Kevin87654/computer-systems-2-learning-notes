@@ -1,0 +1,29 @@
+# Local preparation and QA files
+.work/
+.qa/
+
+# Office temporary files
+~$*
+
+# IDE and build artifacts
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+*.ipch
+*.pdb
+*.obj
+*.iobj
+*.ipdb
+*.tlog
+*.log
+*.exe
+
+# Course archives and generated binaries
+*.rar
+*.tar
+*.zip
+*.7z
+
